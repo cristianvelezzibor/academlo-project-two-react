@@ -1,4 +1,4 @@
-import "./temperatureGrades.css";
+import "./TemperatureGrades.css";
 
 const TemperatureGrades = ({ gradesTemperature }) => {
   return (
