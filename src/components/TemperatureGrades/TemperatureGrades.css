@@ -1,0 +1,13 @@
+.temperatureGrades {
+  font-size: 80px;
+  font-family: Lato;
+  position: absolute;
+  top: 17%;
+  left: 36%;
+}
+.temperatureGradesLightClass {
+  color: #026eed;
+}
+.temperatureGradesDarkClass {
+  color: white;
+}

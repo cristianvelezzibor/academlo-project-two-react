@@ -1,0 +1,113 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  position: fixed;
+  z-index: 10;
+}
+.navbar h1 {
+  color: white;
+  font-family: Lato;
+  font-size: 23px;
+}
+.searchCity {
+  position: relative;
+}
+.searchCity input::placeholder,
+input,
+i {
+  color: #d5f3ff;
+  font-size: 15px;
+}
+.searchCity i {
+  position: absolute;
+  margin-left: 15px;
+  top: 12px;
+}
+.btn-holder {
+  width: 50px;
+  height: 26px;
+  border-radius: 18px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+.btn-circle {
+  background-color: #53388f;
+  transform: translateX(0px);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  transition: 300ms;
+}
+.active {
+  background-color: #53388f;
+  transform: translateX(20px);
+  transition: 300ms;
+}
+.checkbox {
+  display: none;
+}
+.containerAll {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  font-family: Lato;
+}
+.containerAllBackgroudLight {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(213, 243, 255, 1) 0%,
+    rgba(81, 180, 248, 1) 100%
+  );
+}
+.containerAllBackgroudDark {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(47, 41, 88, 1) 100%
+  );
+}
+.weatherConditions {
+  font-family: Lato;
+  list-style: none;
+  position: absolute;
+  top: 48%;
+  left: 36%;
+}
+.weatherConditionsLightClass {
+  color: #56a5f1;
+}
+.weatherConditionsDarkClass {
+  color: white;
+}
+.weatherLocationClimate {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  font-family: Lato;
+  position: absolute;
+  top: 56%;
+  left: 36%;
+  font-size: 20px;
+}
+.weatherLocationClimateLightClass {
+  color: #026eed;
+}
+.weatherLocationClimateDarkClass {
+  color: white;
+}
